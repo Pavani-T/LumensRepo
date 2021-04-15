@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.lumens.listeners.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.lumens.testscripts.LumensTestscripts">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="TC_Lumens_009"/>
+          <include name="TC_Lumens_014"/>
+          <include name="TC_Lumens_011"/>
+          <include name="TC_Lumens_010"/>
+          <include name="TC_Lumens_006"/>
+          <include name="TC_Lumens_017"/>
+          <include name="TC_Lumens_005"/>
+          <include name="TC_Lumens_016"/>
+          <include name="TC_Lumens_008"/>
+          <include name="TC_Lumens_007"/>
+          <include name="TC_Lumens_013"/>
+          <include name="TC_Lumens_012"/>
+          <include name="TC_Lumens_015"/>
+        </methods>
+      </class> <!-- com.lumens.testscripts.LumensTestscripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
